@@ -1,0 +1,27 @@
+{
+    "name": "discord-bot",
+    "version": "1.0.0",
+    "description": "A discord bot ",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node --watch src/index.js "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OwlRen/discord-bot.git"
+    },
+    "author": "Renato S Oliveira || OwlRen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/OwlRen/discord-bot/issues"
+    },
+    "homepage": "https://github.com/OwlRen/discord-bot#readme",
+    "dependencies": {
+        "discord.js": "^14.11.0",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.40.0"
+    }
+}
